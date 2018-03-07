@@ -10,7 +10,21 @@
 
     <title>Ready Set Move – Personal Training Berlin</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar" data-offset="0">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top" id="navbar">
+      <a class="navbar-brand" href="#head">Ready Set Move</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav">
+          <!-- <a class="nav-item nav-link" href="#">Angebote</a> -->
+          <a class="nav-item nav-link" href="#pricing">Preise</a>
+          <a class="nav-item nav-link" href="#contact">Kontakt</a>
+          <a class="nav-item nav-link" href="#trainer-profile">Trainerprofil</a>
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <!-- Use col-sm to start stacked at xs devices and then stack -->
       <!-- d-none d-md-block hide and show elements only for specific sizes -->
@@ -22,14 +36,52 @@
       <!-- Navbar mit send me mail? + Scrollspy + Sticky top (or is that default?) -->
       <!-- Border radius utils for images -->
       <!-- Icons: https://getbootstrap.com/docs/4.0/extend/icons/ -->
-      <div class="row">
+      <div class="row" id="head">
         <h1>Ready Set Move – Personal Training Berlin</h1>
         <h2>Never stop moving</h2>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-md-8">.col-12 .col-md-8</div>
-      <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+      <div class="row" id="pricing">
+        <h3>Preise</h3>
+        <p>Eine Trainingseinheit dauert 60 Minuten. Kürzere oder längere Trainingseinheiten können individuell abgesprochen werden.</p>
+        <ul class="list-group">
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Testtraining</h5>
+              <small class="text-muted">Preis – 20€</small>
+            </div>
+            <small class="text-muted">Zum probieren…</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Einzeleinheit</h5>
+              <small class="badge badge-default">120€</small>
+            </div>
+            <small>Volle Flexibilität.</small>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">5er Paket</h5>
+              <small>550€</small>
+            </div>
+            <small>Volle Flexibilität.</small>
+          </a>
+          <li>5 Einheiten - 550€ (110€ / Einheit)</li>
+          <li>10 Einheiten - 1000€ (100€ / Einheit)</li>
+          <li>20 Einheiten - 1800€ (90€ / Einheit)</li>
+        </ul>
+      </div>
+      <div class="row" id="contact">
+        <h3>Kontakt</h3>
+        <p>
+          Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles non aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+        </p>
+      </div>
+      <div class="row" id="trainer-profile">
+        <h3>Trainerprofil</h3>
+        <p>
+          Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard. Freegan beard aliqua cupidatat mcsweeney's vero. Cupidatat four loko nisi, ea helvetica nulla carles. Tattooed cosby sweater food truck, mcsweeney's quis non freegan vinyl. Lo-fi wes anderson +1 sartorial. Carles non aesthetic exercitation quis gentrify. Brooklyn adipisicing craft beer vice keytar deserunt.
+        </p>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
