@@ -48,9 +48,16 @@
           <button class="btn btn-outline-secondary btn-sm btn-block mb-2" type="button" data-toggle="collapse" data-target="#philosophy-details" aria-expanded="false" aria-controls="philosophy-details">
             <span class="oi oi-elevator" title="elevator" aria-hidden="true"></span>
           </button>
-          <div class="text-muted collapse" id="philosophy-details">
+          <div class="text-muted collapse" id="philosophy-details" data-toggle="collapse" data-target="#philosophy-details">
             <p>
-              <small class="text-muted">Training ist sehr individuell…</small>
+              <small class="text-muted">
+                Effizientes, effektives Training ist vor allem Eines: individuell zugeschnitten.<br>
+                Welche <strong>Ziele</strong> möchtest du verfolgen? Möchtest du <em>abnehmen</em>? <em>Muskelmasse</em> aufbauen? Beides gleichzeitig? Möchtest du dich in einer bestimmten <em>Sportart verbessern</em>? Möchtest du <em>beweglicher</em> werden? <em>Kraft</em> aufbauen? Vielleicht sogar Schmerzen bekämpfen? Oder kennst du deine Ziele noch gar nicht genau, sondern willst einfach nur fit werden und brauchst jemanden der dir die <em>richtige Idee</em> geben kann wie?<br>
+                Wie sieht deine <strong>Lebenssituation</strong> aus? Wie viel <em>Zeit</em> kannst und möchtest du in dein Training investieren? Ist deine <em>Ernährung</em> für die Anforderungen, die Training und Leben an dich stellen richtig ausgerichtet? Wie sind deine <em>Vorerfahrungen</em> und <em>körperlichen Voraussetzungen</em>?<br>
+                Viele <strong>Faktoren</strong> beeinflussen was und wie du trainieren solltest um deine Ziele schnell zu erreichen und dabei gesund zu bleiben.<br>
+                Auch wenn es schön wäre eine einfache, allgemeingültige Lösung anbieten zu können, Wunderpille oder -workout sind leider eine Illusion.<br>
+                Ein <strong>ganzheitlicher Ansatz</strong>, der <strong>beständig</strong> an die sich ändernden Bedingungen und deine Fortschritte <strong>angepasst</strong> wird, garantiert dir <strong>lang anhaltende Erfolge</strong>.
+              </small>
             </p>
           </div>
         </div>
@@ -139,7 +146,7 @@
             <li class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex w-100 align-items-center">
                 <span class="oi oi-arrow-thick-top mr-2 text-center" title="arrow-thick-top" aria-hidden="true"></span>
-                <span class="mr-2">Russian Martial Arts Systema</span>
+                <span class="mr-2">RMA Systema</span>
                 <small class="ml-auto text-right">3 Jahre</small>
               </div>
             </li>
@@ -182,19 +189,19 @@
         </div>
       </div>
       <div class="row justify-content-center mb-2">
-        <div class="col-md-8 order-md-2">
+        <div class="col-md-8 order-md-2 mt-2">
           <div class="card" id="pricing">
             <div class="card-body">
               <h5 class="card-title">Preise</h5>
               <p class="card-text">Eine Trainingseinheit dauert 60 Minuten. Kürzere oder längere Trainingseinheiten können individuell abgesprochen werden.</p>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item list-group-item-action flex-column align-items-start" id="test-training">
+                <li class="list-group-item list-group-item-action flex-column align-items-start" data-toggle="collapse" data-target="#test-training-details" id="test-training">
                   <div class="d-flex w-100 justify-content-between mb-1">
                     <h5 class="mb-1">Testtraining</h5>
                     <small class="text-muted">40€</small>
                   </div>
                   <p class="mb-1">Kennenlernen und ausprobieren</p>
-                  <button class="btn btn-outline-secondary btn-sm btn-block" type="button" data-toggle="collapse" data-target="#test-training-details" aria-expanded="false" aria-controls="test-training-details">
+                  <button class="btn btn-outline-secondary btn-sm btn-block" type="button" aria-expanded="false" aria-controls="test-training-details">
                     <span class="oi oi-elevator" title="elevator" aria-hidden="true"></span>
                   </button>
                   <div class="text-muted collapse mt-2" id="test-training-details">
@@ -206,13 +213,13 @@
                     </p>
                   </div>
                 </li>
-                <li class="list-group-item list-group-item-action flex-column align-items-start">
+                <li class="list-group-item list-group-item-action flex-column align-items-start" data-toggle="collapse" data-target="#single-session-details">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Einzeleinheit</h5>
                     <small class="text-muted">120€</small>
                   </div>
                   <p class="mb-1">Volle Flexibilität / persönlicher Trainingsplan</p>
-                  <button class="btn btn-outline-secondary btn-sm btn-block" type="button" data-toggle="collapse" data-target="#single-session-details" aria-expanded="false" aria-controls="single-session-details">
+                  <button class="btn btn-outline-secondary btn-sm btn-block" type="button" aria-expanded="false" aria-controls="single-session-details">
                     <span class="oi oi-elevator" title="elevator" aria-hidden="true"></span>
                   </button>
                   <div class="text-muted collapse mt-2" id="single-session-details">
@@ -253,13 +260,13 @@
                   <p class="mb-1">inkl. Anamnesegespräch</p>
                   <small>90€ / Einheit</small>
                 </li>
-                <li class="list-group-item list-group-item-action flex-column align-items-start">
+                <li class="list-group-item list-group-item-action flex-column align-items-start" data-toggle="collapse" data-target="#online-consultation-details">
                   <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Trainingsplan (online)</h5>
                     <small class="text-muted">40€</small>
                   </div>
                   <p class="mb-1">Body Weight Krafttraining</p>
-                  <button class="btn btn-outline-secondary btn-sm btn-block" type="button" data-toggle="collapse" data-target="#online-consultation-details" aria-expanded="false" aria-controls="online-consultation-details">
+                  <button class="btn btn-outline-secondary btn-sm btn-block" type="button" aria-expanded="false" aria-controls="online-consultation-details">
                     <span class="oi oi-elevator" title="elevator" aria-hidden="true"></span>
                   </button>
                   <div class="text-muted collapse mt-2" id="online-consultation-details">
@@ -278,13 +285,19 @@
             </div>
           </div>
         </div>
-        <div class="col-md order-md-1">
+        <div class="col-md order-md-1 mt-2">
           <div class="row">
             <div class="col-md">
               <h3 id="contact">Kontakt</h3>
+              <p>
+                Überzeugt, dass ich dir bei deinem Training helfen kann?<br>
+                Dann schreib mir doch einfach eine Mail oder ruf mich kurz an und wir vereinbaren einen Termin.
+              </p>
               <address>
                   <strong>Ready Set Move Personal Training</strong><br>
                   <span class="oi oi-person mr-2" title="Name" aria-hidden="true"></span>Robert Pazurek<br>
+                  <span class="oi oi-envelope-closed mr-2" title="E-Mail" aria-hidden="true"></span><a href="mailto:info@ready-set-move.de?subject=Anfrage%20Personal%20Training">info@ready-set-move.de</a><br>
+                  <span class="oi oi-phone mr-2" title="Telefon" aria-hidden="true"></span><a href="tel:+4917621964450">+49 176 / 21964450</a><br>
                   <div class="d-flex align-items-baseline">
                     <span class="oi oi-map-marker mr-2" title="map-marker" aria-hidden="true"></span>
                     <div>
@@ -292,8 +305,7 @@
                       13187 Berlin<br>
                     </div>
                   </div>
-                  <span class="oi oi-phone mr-2" title="Telefon" aria-hidden="true"></span>+49 176 21964450<br>
-                  <span class="oi oi-envelope-closed mr-2" title="E-Mail" aria-hidden="true"></span><a href="mailto:info@ready-set-move.de?subject=Anfrage%20Personal%20Training">info@ready-set-move.de</a>
+                  <span class="oi oi-aperture mr-2" title="Instagram" aria-hidden="true"></span><a href="https://www.instagram.com/robertpazurek/">Folge mir auf Instagram</a><br>
               </address>
             </div>
           </div>
