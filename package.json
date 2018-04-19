@@ -1,0 +1,10 @@
+{
+	"name": "ready-set-move-build",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "node build.js"
+	},
+	"devDependencies": {
+		"fs-extra": "^5.0.0"
+	}
+}
