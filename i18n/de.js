@@ -119,6 +119,14 @@ module.exports = {
 					subTitle: 'inkl. Anamnesegespräch'
 				}
 			}
+		},
+		contact: {
+			title: 'Kontakt',
+			subTitle: 'Überzeugt, dass ich dir bei deinem Training helfen kann?<br>' +
+			'Dann schreib mir doch einfach eine Mail oder ruf mich kurz an und wir vereinbaren einen Termin.',
+			instagram: {
+				followMe: 'Folge mir auf Instagram'
+			}
 		}
 	}
 }

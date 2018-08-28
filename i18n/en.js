@@ -84,28 +84,28 @@ module.exports = {
 				testTraining: {
 					title: 'Test Training',
 					subTitle: 'Try it out',
-					details: '<p><small class="text-muted">Vertrauen und Sympathie sind Schlüsselelemente für ein erfolgreiches Personal Training. Ein Testtraining nach einer kurzen Absprache der Ziele bietet die Ideale Möglichkeit um sich kennen zu lernen und zu schauen ob die Chemie stimmt.</small></p>' +
-					'<p><small class="text-muted">Vielleicht weißt du aber auch noch gar nicht ob Personal Training überhaupt etwas für dich ist und willst dich durch ein allgemeines Testtraining davon überzeugen was es dir bieten kann.</small></p>'
+					details: '<p><small class="text-muted">Trust and sympathy are key factors for successful personal training. A test session (after a brief dialogue about your goals) is the perfect opportunity to get to know each other and see if we\'re a fit.</small></p>' +
+					'<p><small class="text-muted">Or maybe you don\'t even know if you want to engage in personal training and want to see what the benefits are with a general test training session.</small></p>'
 				},
 				singleSession: {
 					title: 'Single Session',
 					subTitle: 'full felxibility / personalized workout',
-					details: '<p><small class="text-muted">Die Einzelstunde bietet dir die Möglichkeit völlig ungebunden erstmal ein paar Trainingseinheiten durchzuführen.</small></p>' +
-					'<p><small class="text-muted">Auch die Erstellung eines persönlichen Trainingsplans für ein später selbst durchgeführtes Training oder die Überprüfung der Trainingserfolge und eine entsprechende Anpassung des aktuellen Trainingsplans können im Rahmen einer Einzelstunde erfolgen.</small></p>' +
-					'<p><small class="text-muted">Bevor wir das erste Mal zusammen trainieren (egal ob Einzelstunde oder Paket), erfolgt ein persönliches Anamnesegespräch. Dabei ermitteln wir deine Trainingsziele und Umstände um dein Training perfekt auf dich zuschneiden zu können.</small>' +
-						'<br><small>Dieses Gespräch ist in der Einzeleinheit und den Trainingspaketen enthalten.</small></p>'
+					details: '<p><small class="text-muted">The single session provides the possibility to do a few sessions without a big commitment.</small></p>' +
+					'<p><small class="text-muted">Other options would be to create a personal workout plan to follow along on your own or reviewing the training progress and adapting an existing plan.</small></p>' +
+					'<p><small class="text-muted">Before jumping into the first workout (no matter if single session or package deal), we\'ll talk about your goals and life situation so I can ensure to tailor the training exactly to your needs.</small>' +
+						'<br><small>The requirement dialogue is included in the single session and the package deals.</small></p>'
 				},
 				upgrade: {
 					title: 'Extra Time',
 					subTitle: 'extend your booked session by 30 minutes',
-					details: '<p><small class="text-muted">Richtig intensives Krafttraining? Noch einen Mobilitypart dazu? Wenn du mehr Themenfelder abdecken oder intensiver trainieren möchtest, kannst du eine bereits gebuchte Einheite für einen günstigen Stundenpreis verlängern.</small></p>' +
-					'<p><small class="text-muted">Die Verlängerung muss bei der Terminabsprache angegeben werden, damit ich die Einheit richtig einplanen kann und kann auch dauerhaft für eines der Pakete gebucht werden.</small></p>'
+					details: '<p><small class="text-muted">You need a more intense strength training? Adding a longer mobility part sounds good? If you want to address more topics or train more intensely in a specific direction, you can extend an already booked session.</small></p>' +
+					'<p><small class="text-muted">Please make clear you need extra time when setting the appointment, so I can modify the session accordingly. It can also be booked reoccuring for a package.</small></p>'
 				},
 				consultation: {
 					title: 'Online Workout Plan',
 					subTitle: '…for body weight strength training',
-					details: '<p><small class="text-muted">Du hast kein Problem damit dich zum Training zu motivieren und hast auch schon eine Idee was du erreichen möchtest aber dir fehlt die richtige Idee wie du effektiv Kraft und Muskelaufbau trainieren kannst? Dann brauchst du vielleicht nur den richtigen Trainingsplan.</small></p>' +
-					'<p><small class="text-muted">Nach einem kurzen online Ausstausch per Mail baue ich dir einen Trainingsplan zusammen, der mit einfachen Mitteln auch zu Hause umgesetzt werden kann. Von Vorteil für deine Performance (aber nicht zwingend notwendig) sind eine Klimmzugstange oder Ringe.</small></p>'
+					details: '<p><small class="text-muted">You don\'t mind training on your own and know exactly what you want to achieve, but you lack the idea of how to traing strength and muscle building effectively? Then all you need is a good workout plan.</small></p>' +
+					'<p><small class="text-muted">After syncing with each other online, I\'ll set up a workout plan, that can be done with simple equipment at home. A pull up bar and rings are benefitial for your performance but not necessarily required.</small></p>'
 				},
 				fivePack: {
 					title: '5 sessions',
@@ -119,6 +119,14 @@ module.exports = {
 					title: '20 sessions',
 					subTitle: 'including preparation dialogue'
 				}
+			}
+		},
+		contact: {
+			title: 'Contact',
+			subTitle: 'Convinced I can help you with your training?<br>' +
+			'Just call me or send an e-mail and we\'ll make an appointment.',
+			instagram: {
+				followMe: 'Follow me on Instagram'
 			}
 		}
 	}
