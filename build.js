@@ -19,8 +19,8 @@ function replaceValue(template, value, replacementKey) {
 function renderTemplate(i18n) {
 	let dirName = __dirname;
 	let relativePath = '.'
-	if (i18n.language) {
-		dirName += '/' + i18n.language
+	if (!i18n.entries.language.default) {
+		dirName += '/' + i18n.entries.language.current.code
 		fs.removeSync(dirName);
 		fs.mkdirSync(dirName);
 		relativePath = '..'

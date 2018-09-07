@@ -1,6 +1,16 @@
 module.exports = {
-	language: 'en',
 	entries: {
+		language: {
+			current: {
+				code: 'en',
+				name: 'english'
+			},
+			alternate : {
+				code: 'de',
+				name: 'Deutsch',
+				link: '/'
+			}
+		},
 		navItem: {
 			trainerProfile : 'trainer',
 			pricing: 'pricing',
