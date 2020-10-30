@@ -22,7 +22,7 @@ module.exports = {
         "Dein auf dich zugeschnittener, gesunder Weg zu funktionaler Kraft, verbessertem Körpergefühl und höherem Bewegungsverständnis.",
     },
     studio: {
-      heading: "Trainining sofort in meinem neuen Studio!",
+      heading: "Trainining in meinem neuen Studio!",
       description:
         "Ich habe ein eigenes Trainingsstudio eröffnet um noch besser mit Dir trainieren zu können. Neben allen nötigen Geräten für ein ausgeglichenes Krafttraining, gibt es dort ab Dezember 2020 auch eine Kletterwand und einen Hangelparkour. Dass bedeutet in Zukunft Bewegungstraining komplett in 3D.",
     },
